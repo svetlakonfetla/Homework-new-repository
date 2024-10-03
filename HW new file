@@ -1,0 +1,17 @@
+a=1
+b=-5
+c=6
+import math
+
+D=b*b+4*a*c
+match D:
+    case D if D>0:
+        x1=(-b-math.sqrt(D))/(2*a)
+        x2=(-b+math.sqrt(D))/(2*a)
+        print(f'x1=',x1)
+        print(f'x2=',x2)
+    case D if D==0:
+        x=-b/(2*a)
+        print(f'x=',x)
+    case D if D<0:
+        print('Решений нет')
