@@ -14,4 +14,4 @@ match D:
         x=-b/(2*a)
         print(f'x=',x)
     case D if D<0:
-        print('Решений нет')
+        print('Not solved')
